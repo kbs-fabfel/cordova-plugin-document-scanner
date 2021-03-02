@@ -3,7 +3,7 @@
   "version": "3.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner"
+    "url": "https://github.com/kbs-fabfel/cordova-plugin-document-scanner"
   },
   "cordova": {
     "id": "cordova-plugin-document-scanner",
