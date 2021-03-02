@@ -13,6 +13,7 @@ var uri = "";
 
         let scannerViewController = ImageScannerController()
         scannerViewController.imageScannerDelegate = self
+        scannerViewController.modalPresentationStyle = .fullScreen
         
         // Get the top most view and start the camera
         if var topController = UIApplication.shared.keyWindow?.rootViewController {
