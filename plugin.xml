@@ -43,7 +43,7 @@
         <!--          <source url="git@github.com:foo/foo-specs.git"/>-->
         <!--          <source url="git@github.com:bar/bar-specs.git"/>-->
             <!-- <source url="https://github.com/kbs-fabfel/WeScan.git" /> -->
-            <!-- <source url="git@github.com:kbs-fabfel/WeScan.git" NOT WORKING /> -->
+            <source url="git@github.com:kbs-fabfel/WeScan.git" />
         </pods-config>
         <!-- use the latest version of a pod -->
         <pod name="WeScan" git="https://github.com/kbs-fabfel/WeScan" branch="ver/3.x.x"/>
