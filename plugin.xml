@@ -46,7 +46,7 @@
             <source url="git@github.com:kbs-fabfel/WeScan.git" />
         </pods-config>
         <!-- use the latest version of a pod -->
-        <pod name="WeScan" git="https://github.com/kbs-fabfel/WeScan" branch="ver/3.x.x"/>
+        <pod name="WeScan" git="https://github.com/kbs-fabfel/WeScan"/>
         <!-- <pod name="WeScan" git="git@github.com:kbs-fabfel/WeScan.git" NOT WORKING /> -->
 
         <config-file target="config.xml" parent="/*">
