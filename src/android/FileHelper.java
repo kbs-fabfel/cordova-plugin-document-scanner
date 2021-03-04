@@ -13,7 +13,7 @@ import android.provider.MediaStore;
 import org.apache.cordova.CordovaInterface;
 
 public class FileHelper {
-  
+
     /**
      * Returns the real path of the given URI string.
      * If the given URI string represents a content:// URI, the real path is retrieved from the media store.
@@ -29,7 +29,7 @@ public class FileHelper {
         if (Build.VERSION.SDK_INT < 11)
             realPath = FileHelper.getRealPathFromURI_BelowAPI11(cordova.getActivity(), uri);
 
-        // SDK >= 11
+            // SDK >= 11
         else
             realPath = FileHelper.getRealPathFromURI_API11_And_Above(cordova.getActivity(), uri);
 
